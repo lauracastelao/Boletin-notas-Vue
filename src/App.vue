@@ -23,6 +23,12 @@ import HelloWorld from '@/components/HelloWorld.vue'
 <style>
 @import '@/assets/base.css';
 
+
+
+body{
+  background-image: url(https://wallpapercave.com/wp/A2fXxkt.jpg);
+ 
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -44,7 +50,7 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: rgb(58, 179, 139);
+  color: rgb(250, 250, 250);
   transition: 0.4s;
 }
 
@@ -116,4 +122,6 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+
+
 </style>

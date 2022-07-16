@@ -11,9 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Este proyecto ha sido creado con
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
+     
     </h3>
   </div>
 </template>
@@ -35,7 +33,9 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .greetings h1,
+  .greetings h1{
+    font-size: 2.4vh;
+  }
   .greetings h3 {
     text-align: left;
   }

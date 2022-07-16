@@ -1,13 +1,16 @@
 <script setup>
 
 
-import Portada from '../components/Portada.vue'
+
+import Onset from '../components/Onset.vue'
+
 </script>
 
 <template>
 
 
   <main>
-<Portada/>
+<Onset/>
+
   </main>
 </template>
