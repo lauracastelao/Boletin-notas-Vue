@@ -1,9 +1,18 @@
+<script setup>
+import Notes from "./Notes.vue";
+import Results from "../components/Results.vue";
+
+</script>
+
+
 <template>
   <div class="about">
     <h1>califfffff</h1>
+   <Notes/>
+   <Results></Results>
    
   </div>
-  <div v-bind id"Notes">
+
 </template>
 
 <style>
